@@ -1,0 +1,26 @@
+$lightgray: #efefef;
+$charcoal: #3a3a3a;
+$black: #000000;
+$white: #ffffff;
+$blue: #1e73be;
+
+body {
+	
+	color: $charcoal;
+	background-color: $lightgray;
+	
+}
+
+a {
+	
+	color: $blue;
+	text-decoration: none;
+	
+	&:hover {
+		
+		color: $blue;
+		text-decoration: none;
+		
+	}
+	
+}

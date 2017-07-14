@@ -1,0 +1,27 @@
+body, button, input, select, textarea {
+	font-family: "Open Sans", sans-serif;
+	font-weight: $regular;
+	text-transform: none;
+	font-size: pxToRem(17);
+}
+body {
+	line-height: 1.5;
+}
+p {
+	margin-bottom: 1.5em;
+}
+h1 {
+	font-size: pxToRem(40);
+	font-weight: light;
+	text-transform: none;
+}
+h2 {
+	font-size: pxToRem(30);
+	font-weight: light;
+	text-transform: none;
+}
+h3 {
+	font-weight: $regular;
+	text-transform: none;
+	font-size: pxToRem(20);
+}
