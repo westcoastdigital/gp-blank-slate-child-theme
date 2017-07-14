@@ -9,9 +9,7 @@ module.exports = {
 	},
 	main: {
 		src: [
-      		'assets/js/vendor/browser.test.js',
-      		'assets/js/vendor/jquery.matchHeight-min.js',
-      		'assets/js/vendor/text-toggle.js',
+      		'assets/js/vendor/html5shiv.js',
 			'assets/js/src/project.js'
 		],
 			dest: 'assets/js/project.js'

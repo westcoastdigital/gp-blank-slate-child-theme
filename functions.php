@@ -8,9 +8,9 @@
 // Diasbles all of GP's styles and scripts, do not rename function
 function generate_scripts() {
 	
-	wp_enqueue_style( 'project', get_stylesheet_directory_uri() . '/assets/css/project.css' );
+	wp_enqueue_style( 'project', get_stylesheet_directory_uri() . '/assets/css/project.min.css' );
 	
-	wp_enqueue_style( 'style', get_stylesheet_directory_uri() . '/style.css' );
+	wp_enqueue_script( 'project', get_stylesheet_directory_uri() . '/assets/js/project.min.js' );
 	
 	wp_enqueue_style( 'google-font', 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800' );
 	
